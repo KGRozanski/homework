@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(8, 8, 8);
+  background-image: url(./img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.arrow {
+  margin: 10px;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+#name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#avatar {
+  width: 42px;
+  height: 42px;
+  border: 1px solid #000000;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#accept {
+  display: block;
+  width: 35px;
+  height: 35px;
+  margin: 15px auto;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+#accept:hover {
+  cursor: pointer;
+}
